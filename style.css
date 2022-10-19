@@ -1,0 +1,417 @@
+.top-bar{
+            
+    background-color: white;
+    position: relative;
+    display: flex;
+    
+    
+}
+
+
+ body{
+    margin: 0;
+    background-color:white;
+ }
+.contact-top{
+    color: gray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    background: transparent;
+    border-width: 1px;
+    font-size: 14px;
+    border-color: rgb(19, 199, 231);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.support-top{
+    color: gray;
+    border-top: none;
+    border-width: 1px;
+    border-left: none;
+    border-bottom: none;
+    background: transparent;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-color: rgb(19, 199, 231);
+    cursor: pointer;
+
+}
+.search-top{
+    font-size: 14px;
+    font-family: sans-serif;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    color: grey;
+    border-color: rgb(19, 199, 231);
+    color: gray;
+    outline: none;
+}
+.nav-bar
+{
+  display: inline-block;
+}
+.logo{
+    width: 100px;
+    padding-top: 21px;
+    padding-left: 94.5px;
+
+       }
+.logo-pic{
+    width:216px;
+    height: 55.5875px;
+}
+.nav-bar-search{
+    display: flex;
+    float: right;
+    padding-top: 15px;
+    
+
+}
+.products
+{
+    position: relative;
+}
+.prod-contents{
+    
+    width: 200x;
+    display: none;
+    position: absolute;
+    background-color:#002144;;
+    
+}
+.products:hover .prod-contents{
+    display: block;
+}
+
+
+.nav-list{
+    padding-top:30px;
+    width: 500px;
+    float: right;
+    margin-left: 450px;
+    padding-right: 130px;
+        }
+.products{
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-family: "Gotham","Helvetica",sans-serif;
+    color: #002144;
+    text-align: top;
+    height: 50px;
+    padding-bottom: 20px;
+    
+} 
+.prod-p{
+    color: white;
+}  
+
+
+
+.blue-band{
+    background-color: #0590C8;
+   margin: 0;
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 100%;
+   font-family:sans-serif;  
+   font-size: 18px;
+}
+.blue-button{
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color:#0590C8;
+    color:white;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: white;
+    transition: background-color 0.5s,
+    color 0.5s
+    ;
+}
+.blue-button:hover{
+    background-color: white;
+    color:#0590C8;
+}
+.card{
+    background-color: #0C0F30;
+    justify-content: space-evenly;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    
+}
+.img1{
+    
+    margin-left: 20px;
+    margin-right: 20PX;
+    width:584px;
+    background-image: url("https://www.bostondynamics.com/sites/default/files/2020-10/spot-masthead-mobile.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cardhead{
+    padding-left: 30px;
+    font-size: 90px;
+    font-family: sans-serif;
+    color:white;
+    
+}
+.cardbody{
+    padding-left: 30px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 18px;
+    width:300px;
+}
+.cardbutton{
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background:transparent;
+    border-color: white;
+    border-style: solid;
+    color:white;
+    border-radius: 8px;
+    border-width: 2px;
+    cursor: pointer;
+}
+.main5{
+background-color: white;
+}
+.hello{
+background-color: aliceblue;
+padding-top: 10px;
+padding-bottom: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.car{
+padding-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+width:50%;
+margin-bottom: 30px;
+box-shadow: 5px 10px 40px 8px #888888;
+}
+.car1{text-align: center;
+padding-left: 30px;
+color: #00355A;
+font-size: 40px;
+font-family: sans-serif;
+width: 300px;
+
+padding-right: 30px;
+
+}
+.car1-body{
+text-align: center;
+padding-left: 30px;
+font-size: 18px;
+font-family: sans-serif;
+font-weight: bold;
+color: #0590C8;
+
+
+}
+.roboimg{
+align-content: center;
+align-items: center;
+}
+.atlas{
+background-image: url("https://www.bostondynamics.com/sites/default/files/2021-02/cta-atlas.jpg");
+height: 350px;
+padding-top: 10px;
+
+}
+.atlas-head{
+padding-top: 70px;
+margin-top: 0px;
+font-family: sans-serif;
+font-size: 80px;
+color: white;
+padding-left: 850px;
+}
+.atlas-body{
+margin-top: 0px;
+padding-top: 0px;
+font-size: 18px;
+color: white;
+font-family: sans-serif;
+padding-left: 850px;
+width: 300px;
+}
+.button-atlas{
+background: transparent;
+border-width: 2px;
+border-color: white;
+color: white;
+border-radius: 6px;
+margin-left: 850px;
+padding-left:10px ;
+padding-top:13px;
+padding-right:10px;
+padding-bottom: 13px;
+transition: background-color 0.7,
+color 0.7,border 0.7;
+cursor: pointer;
+}
+.button-atlas:hover
+{
+background-color:  #0590C8;
+color: white;
+border: none;
+}
+.last-left{
+background-color:   #0590C8;;
+width:35%;
+height: 460px;
+
+
+
+
+}
+.la-img{
+padding-left: 130px;
+padding-top: 180px;
+}
+.last-main{
+display: flex;
+flex-direction: row;
+
+}
+.last-right{
+padding-top: 10px;
+padding-left:67.7px ;
+padding-right: 55.8px;
+background-color:rgb(0, 53, 90);
+}
+.main-l{
+padding-bottom: 10px;
+font-size:14px ;
+font-family:sans-serif ;
+font-weight: bold;
+color: white;
+}
+.sub-l{
+font-size:14px ;
+font-family:sans-serif ;
+line-height: 15px;
+color: white;
+cursor: pointer;
+
+}
+.right-last{
+display: flex;
+flex-direction: row;
+height: 460px;
+flex-wrap: wrap;
+
+}
+
+.below-last{
+margin-top: 0px;
+padding-top: 0;
+background-color: rgb(0, 53, 90);;
+
+} 
+.f-sub{
+font-size: 14px;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+padding-left: 100px;
+display: inline-block;
+
+}
+.t-box{
+margin-left: 10px;
+background: transparent;
+border-width: 1px;
+border-color: white;
+border-top: none;
+border-left: none;
+border-right:none;
+color: white;
+outline: none;
+font-size: 14px;
+margin-right: 155px;
+
+}
+.footer{
+padding-right:130px ;
+}
+footer{
+padding-bottom: 20px;
+}
+.footer1{
+
+margin-left: 200px; 
+}
+.privacy
+{margin-top: 25px;
+font-family: sans-serif;
+font-size: 14px;
+margin-left: 500px;
+outline: none;
+border-color: black;
+border-left: none;
+border-bottom: none;
+border-top:none ;
+border-width: 1px;
+cursor: pointer;
+
+}
+.terms{margin-top: 25px;
+font-family: sans-serif;
+font-size: 14px; 
+cursor: pointer; 
+border: none;
+}
+.vid{
+display: flex;
+}
+.web-vid{
+position: relative;
+margin-top: 30px;
+width: 1349px;
+font-family: sans-serif;
+
+height: 667.469px;
+z-index: -1;
+
+}
+.on-vid{
+font-family: "Gotham","Helvetica",sans-serif;
+position: absolute;
+z-index: 6;
+font-size: 80;
+left: 0px;
+font-weight: 50;
+color: white;
+width: 500px;
+margin-left: 150px;
+margin-top: 200px;
+
+}
